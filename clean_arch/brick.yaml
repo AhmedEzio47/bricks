@@ -1,0 +1,16 @@
+name: clean_arch
+description: A brick that can be used for creating a new feature 
+in a clean architecture setup 
+and feature-based folder structure.
+
+version: 0.1.0+1
+
+environment:
+  mason: ^0.1.0
+
+vars:
+  feature:
+    type: string
+    description: Your feature name
+    default: Temp
+    prompt: What is your feature name?
