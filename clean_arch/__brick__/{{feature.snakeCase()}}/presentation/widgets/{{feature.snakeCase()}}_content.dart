@@ -5,6 +5,6 @@ class {{feature.pascalCase()}}Content extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
-    return PlaceHolder();
+    return Placeholder();
   }
 }
