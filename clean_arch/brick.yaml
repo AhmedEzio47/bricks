@@ -1,7 +1,6 @@
 name: clean_arch
 description: A brick that can be used for creating a new feature 
-in a clean architecture setup 
-and feature-based folder structure.
+  in a clean architecture setup and feature-based folder structure.
 
 version: 0.1.0+1
 
