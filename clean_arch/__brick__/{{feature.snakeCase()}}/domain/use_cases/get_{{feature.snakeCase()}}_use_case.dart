@@ -9,6 +9,6 @@ class Get{{feature.pascalCase()}}UseCase implements UseCase<{{feature.pascalCase
   
   @override
   Future<Either<Failure, {{feature.pascalCase()}}Entity>> call(NoParams params){
-    return repo.get();
+    return repo.get{{feature.pascalCase()}}();
   }
 }
