@@ -1,5 +1,6 @@
 import 'package:provider/provider.dart';
 import 'package:dartz/dartz.dart'; 
+import '../../index.dart';
 
 class {{feature.pascalCase()}}Provider extends ChangeNotifier {
 

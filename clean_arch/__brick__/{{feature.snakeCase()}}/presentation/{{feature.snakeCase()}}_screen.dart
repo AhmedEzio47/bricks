@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import '../index.dart';
 
 class {{feature.pascalCase()}}Page extends StatelessWidget {
   @override

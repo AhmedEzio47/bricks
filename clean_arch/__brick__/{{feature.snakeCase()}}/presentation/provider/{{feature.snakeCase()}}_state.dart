@@ -1,3 +1,5 @@
+import '../../index.dart';
+
 class {{feature.pascalCase()}}State extends BaseState {
 
   const {{feature.pascalCase()}}State({

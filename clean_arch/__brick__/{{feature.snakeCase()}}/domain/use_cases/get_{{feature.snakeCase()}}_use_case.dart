@@ -1,4 +1,5 @@
 import 'package:dartz/dartz.dart'; 
+import '../../index.dart';
 
 class Get{{feature.pascalCase()}}UseCase implements UseCase<{{feature.pascalCase()}}Entity, NoParams> {
 
