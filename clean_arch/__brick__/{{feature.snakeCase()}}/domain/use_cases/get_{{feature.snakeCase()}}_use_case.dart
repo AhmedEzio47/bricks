@@ -1,3 +1,5 @@
+import 'package:dartz/dartz.dart'; 
+
 class Get{{feature.pascalCase()}}UseCase implements UseCase<{{feature.pascalCase()}}Entity, NoParams> {
 
   const Get{{feature.pascalCase()}}UseCase(this.repo);
