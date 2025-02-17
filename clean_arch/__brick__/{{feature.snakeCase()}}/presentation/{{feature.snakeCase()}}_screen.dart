@@ -11,7 +11,7 @@ const {{feature.pascalCase()}}Screen({super.key});
       create:
           (_) => {{feature.pascalCase()}}Provider(
             get{{feature.pascalCase()}}UseCase: di(),
-          ),
+          )..load(),
       child: {{feature.pascalCase()}}Content(),
     );
   }
