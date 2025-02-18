@@ -13,3 +13,16 @@ vars:
     description: Your feature name
     default: Temp
     prompt: What is your feature name?
+  
+  create_bases:
+    type: boolean
+    description: Determines whether the base classes like (UseCase, Failure, etc) should be generated
+    default: false
+    prompt: Should generate base classes?
+
+  use_case:
+    type: string
+    description: The name of the use case interface class
+    default: use_case
+    prompt: What is the name of the use case interface class?
+
