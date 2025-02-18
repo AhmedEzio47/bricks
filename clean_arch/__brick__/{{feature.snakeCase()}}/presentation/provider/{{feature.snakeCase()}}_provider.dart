@@ -4,7 +4,7 @@ import '../../index.dart';
 
 class {{feature.pascalCase()}}Provider extends ChangeNotifier {
 
-  const {{feature.pascalCase()}}Provider({required this.get{{feature.pascalCase()}}UseCase});
+  {{feature.pascalCase()}}Provider({required this.get{{feature.pascalCase()}}UseCase});
 
   final Get{{feature.pascalCase()}}UseCase get{{feature.pascalCase()}}UseCase;
 
