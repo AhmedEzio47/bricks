@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart'; 
 import '../../index.dart';
 
-class Get{{feature.pascalCase()}}UseCase implements UseCase<{{feature.pascalCase()}}Entity, NoParams> {
+class Get{{feature.pascalCase()}}UseCase implements {{use_case.pascalCase()}}<{{feature.pascalCase()}}Entity, NoParams> {
 
   const Get{{feature.pascalCase()}}UseCase(this.repo);
 
