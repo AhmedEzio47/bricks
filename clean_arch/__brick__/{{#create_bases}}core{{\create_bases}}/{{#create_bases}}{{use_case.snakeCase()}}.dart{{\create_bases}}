@@ -2,7 +2,7 @@ import 'package:dartz/dartz.dart';
 import '{{failure.snakeCase()}}.dart';
 
 abstract interface class {{use_case.pascalCase()}}<Type, Params> {
-  Future<Either<Failure, Type>> call(Params params);
+  Future<Either<{{failure.pascalCase()}}, Type>> call(Params params);
 }
 
 class NoParams {}

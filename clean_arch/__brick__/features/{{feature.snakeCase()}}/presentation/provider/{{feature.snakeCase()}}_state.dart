@@ -12,7 +12,7 @@ class {{feature.pascalCase()}}State extends BaseState {
 
   {{feature.pascalCase()}}State copyWith({
     ProviderStatus? status,
-    Failure? failure,
+    {{failure.pascalCase()}}? failure,
     {{feature.pascalCase()}}Entity? {{feature.camelCase()}},
   }) => {{feature.pascalCase()}}State(
     status: status ?? this.status,
