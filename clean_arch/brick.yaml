@@ -32,3 +32,9 @@ vars:
     default: failure
     prompt: What is the name of the failure class?
 
+  provider_status:
+    type: string
+    description: The name of the provider status enum
+    default: provider status
+    prompt: What is the name of the provider status enum?  
+

@@ -1,15 +1,16 @@
 import '../../index.dart';
 {{#create_bases}}import '../../../../core/{{failure.snakeCase()}}.dart';{{/create_bases}}
+{{#create_bases}}import '../../../../core/{{provider_status.snakeCase()}}.dart';{{/create_bases}}
 
 class {{feature.pascalCase()}}State extends BaseState {
 
   const {{feature.pascalCase()}}State({
-    super.status = ProviderStatus.initial,
+    super.status = {{provider_status.pascalCase()}}.initial,
     super.failure,
     this.{{feature.camelCase()}},
   });
 
-  final {{feature.pascalCase()}}Entity {{feature.camelCase()}};
+  final {{feature.pascalCase()}}Entity? {{feature.camelCase()}};
 
   {{feature.pascalCase()}}State copyWith({
     ProviderStatus? status,
