@@ -1,4 +1,5 @@
 import '../../index.dart';
+{{#create_bases}}import '../../../../core/{{failure.snakeCase()}}.dart';{{/create_bases}}
 
 class {{feature.pascalCase()}}State extends BaseState {
 

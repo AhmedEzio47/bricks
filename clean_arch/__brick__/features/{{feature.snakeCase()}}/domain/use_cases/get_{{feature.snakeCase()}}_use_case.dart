@@ -1,5 +1,7 @@
 import 'package:dartz/dartz.dart'; 
 import '../../index.dart';
+{{#create_bases}}import '../../../../core/{{use_case.snakeCase()}}.dart';{{/create_bases}}
+{{#create_bases}}import '../../../../core/{{failure.snakeCase()}}.dart';{{/create_bases}}
 
 class Get{{feature.pascalCase()}}UseCase implements {{use_case.pascalCase()}}<{{feature.pascalCase()}}Entity, NoParams> {
 

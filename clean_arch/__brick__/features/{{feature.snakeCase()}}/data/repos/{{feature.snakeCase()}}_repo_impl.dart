@@ -1,5 +1,6 @@
 import 'package:dartz/dartz.dart'; 
 import '../index.dart';
+{{#create_bases}}import '../../../../core/{{failure.snakeCase()}}.dart';{{/create_bases}}
 
 class {{feature.pascalCase()}}RepoImpl implements {{feature.pascalCase()}}Repo {
   
