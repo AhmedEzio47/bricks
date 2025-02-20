@@ -36,5 +36,12 @@ vars:
     type: string
     description: The name of the provider status enum
     default: provider status
-    prompt: What is the name of the provider status enum?  
+    prompt: What is the name of the provider status enum?
+
+  base_state:
+    type: string
+    description: The name of the base state class
+    default: base state
+    prompt: What is the name of the base state class?
+
 
