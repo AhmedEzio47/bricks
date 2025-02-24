@@ -1,3 +1,6 @@
 /.mason
 /mason-lock.json
 /mason.yaml
+clean_arch/hooks/pubspec.lock
+clean_arch/hooks/build/hooks/pre_gen/pre_gen_476d16cd98843e2233efd49e2a4dd02bb8e36c6d.dill
+clean_arch/hooks/.dart_tool/package_config.json

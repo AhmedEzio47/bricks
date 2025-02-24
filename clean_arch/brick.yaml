@@ -43,5 +43,9 @@ vars:
     description: The name of the base state class
     default: base state
     prompt: What is the name of the base state class?
+  
+  json_data:
+    type: string
+    description: The encoded JSON object from which the entity properties will be generated
 
 
