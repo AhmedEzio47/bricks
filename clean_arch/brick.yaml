@@ -2,7 +2,7 @@ name: clean_arch
 description: A brick that can be used for creating a new feature 
   in a clean architecture setup and feature-based folder structure.
 
-version: 0.1.0+1
+version: 0.2.0+2
 
 environment:
   mason: ^0.1.0
