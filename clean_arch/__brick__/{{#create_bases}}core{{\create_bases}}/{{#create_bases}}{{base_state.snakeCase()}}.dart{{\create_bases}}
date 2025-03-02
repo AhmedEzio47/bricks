@@ -1,0 +1,14 @@
+import '{{failure.snakeCase()}}.dart';
+import '{{provider_status.snakeCase()}}.dart';
+
+base class {{base_state.pascalCase()}} {
+
+    const {{base_state.pascalCase()}}({
+        required this.status,
+        this.failure,
+    });
+
+    final {{provider_status.pascalCase()}} status;
+    final {{failure.pascalCase()}}? failure;
+
+}

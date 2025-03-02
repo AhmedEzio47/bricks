@@ -1,0 +1,6 @@
+enum {{provider_status.pascalCase()}} {
+    initial,
+    loading,
+    failure,
+    success
+}

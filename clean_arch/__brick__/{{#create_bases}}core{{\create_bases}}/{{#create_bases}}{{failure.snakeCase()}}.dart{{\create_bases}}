@@ -1,0 +1,5 @@
+class {{failure.pascalCase()}} {
+    const {{failure.pascalCase()}}({this.message});
+
+    final String? message;
+}

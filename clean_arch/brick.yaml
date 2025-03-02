@@ -13,3 +13,39 @@ vars:
     description: Your feature name
     default: Temp
     prompt: What is your feature name?
+  
+  create_bases:
+    type: boolean
+    description: Determines whether the base classes like (UseCase, Failure, etc) should be generated
+    default: false
+    prompt: Should generate base classes?
+
+  use_case:
+    type: string
+    description: The name of the use case interface class
+    default: use_case
+    prompt: What is the name of the use case interface class?
+  
+  failure:
+    type: string
+    description: The name of the failure class
+    default: failure
+    prompt: What is the name of the failure class?
+
+  provider_status:
+    type: string
+    description: The name of the provider status enum
+    default: provider status
+    prompt: What is the name of the provider status enum?
+
+  base_state:
+    type: string
+    description: The name of the base state class
+    default: base state
+    prompt: What is the name of the base state class?
+  
+  json_data:
+    type: string
+    description: The encoded JSON object from which the entity properties will be generated
+
+
