@@ -1,0 +1,13 @@
+{
+  "create_bases": true,
+  "use_case": "use case",
+  "failure": "failure",
+  "provider_status": "provider status",
+  "base_state": "base state",
+  "json_data": {
+    "id": "Q4",
+    "name": "Ahmed",
+    "age": 32,
+    "skill_set": ["Programming", "Drawing"]
+  }
+}
