@@ -1,11 +1,11 @@
 name: clean_arch
 description: A brick that can be used for creating a new feature 
-  in a clean architecture setup and feature-based folder structure.
+  in a clean architecture setup and layer-based folder structure.
 
-version: 0.2.0+2
+version: 1.0.0+10
 
 environment:
-  mason: ^0.1.0
+  mason: ^0.1.1
 
 vars:
   feature:
@@ -43,7 +43,28 @@ vars:
     description: The name of the base state class
     default: base state
     prompt: What is the name of the base state class?
-  
+
+  operations:
+    type: array
+    defaults:
+      - get
+    description: The operations that you'll need for this feature in the form of a list
+    prompt: What operations do you need for this feature?
+    values:
+      - get
+      - create
+      - edit
+      - delete
+
+  state_management:
+    type: enum
+    default: bloc
+    description: The feature state management
+    prompt: What is the feature state management?
+    values:
+      - bloc
+      - provider
+
   json_data:
     type: string
     description: The encoded JSON object from which the entity properties will be generated

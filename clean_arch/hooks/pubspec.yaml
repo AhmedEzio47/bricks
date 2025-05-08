@@ -4,3 +4,4 @@ environment:
 
 dependencies:
   mason: ^0.1.0
+  change_case: ^2.2.0
