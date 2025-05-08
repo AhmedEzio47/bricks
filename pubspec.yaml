@@ -1,0 +1,17 @@
+name: flutter_common_package
+description: A module contains all of the common modules / utils for WalaPlus Mobile Team
+version: 3.2.0
+homepage: https://www.walaplus.com
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^2.3.0
